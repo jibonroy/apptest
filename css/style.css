@@ -218,7 +218,14 @@ hr {
   box-shadow: 1px 1px 3px 0px rgb(0, 0, 0);
   text-align: center;
   padding: 0 2px;
+  transition: 0.3s;
+  cursor: pointer;
   margin: 1%;
+}
+#services-part .services .service1:hover {
+  background-color: rgba(255, 136, 0, 0.24);
+  transition-timing-function: ease-in-out;
+  color: black;
 }
 .Modern_Flat_Design {
   font-size: 17px;
@@ -239,7 +246,15 @@ hr {
   text-align: center;
   padding: 0 2px;
   margin: 1%;
+  transition: 0.3s;
+  cursor: pointer;
 }
+#services-part .services .service2:hover {
+  background-color: rgba(255, 136, 0, 0.24);
+  transition-timing-function: ease-in-out;
+  color: black;
+}
+
 #services-part .services .service3 {
   box-sizing: border-box;
   height: 250px;
@@ -247,7 +262,14 @@ hr {
   box-shadow: 1px 1px 3px 0px rgb(0, 0, 0);
   text-align: center;
   padding: 0 2px;
+  transition: 0.3s;
+  cursor: pointer;
   margin: 1%;
+}
+#services-part .services .service3:hover {
+  background-color: rgba(255, 136, 0, 0.24);
+  transition-timing-function: ease-in-out;
+  color: black;
 }
 #services-part .services .service4 {
   box-sizing: border-box;
@@ -256,9 +278,15 @@ hr {
   box-shadow: 1px 1px 3px 0px rgb(0, 0, 0);
   text-align: center;
   padding: 0 2px;
+  transition: 0.3s;
+  cursor: pointer;
   margin: 1%;
 }
-
+#services-part .services .service4:hover {
+  background-color: rgba(255, 136, 0, 0.24);
+  transition-timing-function: ease-in-out;
+  color: black;
+}
 /* ================ Mobile view================= */
 @media (max-width: 768px) {
   .col-1,
@@ -283,6 +311,9 @@ hr {
     margin-left: 30%;
     float: none;
     display: inline-block;
+  }
+   .manu-part ul {
+    margin-left: 10%;
   }
   #services-part .services .service1,
   #services-part .services .service2,
